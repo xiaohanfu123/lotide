@@ -1,11 +1,11 @@
 const eqArrays = function(array1,array2) {
-
-  let intString = array1.join('');
-  for (let i = 0; i < array2.length; i++) {
-    const words = array2.join('');
-    if(intString !== words){return false  
-    }
+  if (array1.length !== array2.length){ 
+    return false
   }
+  for (let i = 0; i < array2.length; i++) {
+    if(array1[i] !== array2[i]){return false  
+    } 
+  } 
     return true
   }
  
