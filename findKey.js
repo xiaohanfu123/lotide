@@ -11,7 +11,7 @@ const assertEqual = function(actual, expected) {
 const findKey = (object,key) =>{
   for(let genre in object){
     if(object[genre] == key)
-    return genre // I am not fully clear why it passed, because it passed a key instead of string )
+    return genre// I am not fully clear why it passed, because it passed a key instead of string ) Hold on .... alll keys are strings!
     
   }
 }
