@@ -30,16 +30,16 @@ assertArraysEqual([1,2,3],[1,2,3])
     if (!toRemove.includes(source[i])) newArray.push(source[i])
   }return newArray
  }
- 
- const without = function(arr1, arr2) {
-  let arr2Set = new Set(arr2);
-  let res = [];
-  for (let item of arr1) {
-    if (!arr2Set.has(item)) {
-      res.push(item);
-    }
-  }
-  return res;
-};
 
- console.log(without(["1", "2", "3"], [1, 2, "3"]))
+//  const without = function(arr1, arr2) {
+//   let arr2Set = new Set(arr2);
+//   let res = [];
+//   for (let item of arr1) {
+//     if (!arr2Set.has(item)) {
+//       res.push(item);
+//     }
+//   }
+//   return res;
+// };
+
+//  console.log(without(["1", "2", "3"], [1, 2, "3"]))
