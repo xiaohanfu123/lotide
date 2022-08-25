@@ -4,5 +4,3 @@ const assertEqual = function(actual, expected) {
   }
   console.assert(actual === expected,`⛔⛔${actual} !== ${expected}`);
 };
-
-assertEqual('light house','light house');
