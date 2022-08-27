@@ -38,8 +38,9 @@ const eqObjects = function (object1, object2) {
     return true;
 };
 
-const cd = { c: "1", d: 4 };
+const cd = { c: "1", d: ["2", 3] };
 const dc = { d: ["2", 3], c: "1" };
-const cd2 = { c: "1", d: [2,3] };
+console.log(eqObjects(cd, dc)); // => true
 
-console.log(eqObjects(cd, cd2))
+const cd2 = { c: "1", d: ["2", 3, 4] };
+console.log(eqObjects(cd, cd2)); // => false
