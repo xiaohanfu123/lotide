@@ -6,7 +6,7 @@ const middle = (array) => {
     return newArray}
   
   if (array.length % 2 == 0) { 
-    newArray.push(array[length / 2 -1]  , array[length / 2 ] )
+    newArray.push(array[length / 2 - 1]  , array[length / 2 ] )
     return newArray
   } 
    else newArray.push(array[Math.floor(length /2)])
@@ -14,3 +14,5 @@ const middle = (array) => {
 }
 
 module.exports = middle;
+
+console.log(middle([1,5,6,7]))
