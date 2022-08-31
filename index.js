@@ -11,10 +11,6 @@ const without = require('./without')
 const countOnly = require('./countOnly')
 const countLetters = require('./countLetters')
 
-
-
-
-
 module.exports = {
   head: head,
   tail: tail,
