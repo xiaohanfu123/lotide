@@ -97,4 +97,5 @@ const median = function(arr) {
   }
   }
 
-  console.log(median([3,5,7,10,1,9,1]))
+  module.exports = median;
+  

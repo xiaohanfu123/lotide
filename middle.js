@@ -15,4 +15,3 @@ const middle = (array) => {
 
 module.exports = middle;
 
-console.log(middle([1,5,6,7]))
