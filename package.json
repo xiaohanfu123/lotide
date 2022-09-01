@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@xiaohanfu123/lotide",
+  "version": "1.0.1",
+  "description": "a replica version of Lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/xiaohanfu123/lotide.git"
   },
-  "author": "",
+  "author": "@xiaohanfu123",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xiaohanfu123/lotide/issues"

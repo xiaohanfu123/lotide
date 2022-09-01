@@ -10,6 +10,6 @@ const map = function(array, callback) {
 
 
 const results1 = map(words,  word  => word[0]); // Same as (word)=> (word[0]) It is a singled-line ,anonymous arrow function with implicit return. #|-___-|```
-
+console.log(results1)
 
 module.exports = map
